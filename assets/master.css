@@ -22,12 +22,15 @@ body {
   margin: 0 auto;
 }
 
-nav ul,nav li {
+nav ul,nav li, nav a {
   display: inline-block;
   list-style: none;
+  line-height: 80px;
+  text-decoration: none;
 }
 
-/* <!-- PRIMA NAVIGAZIONE --> */
+/* <!-- PRIMA NAV-BAR --> */
+/* first menu */
 .menu-one {
   height: 80px;
   width: 100%;
@@ -37,26 +40,43 @@ nav ul,nav li {
   left: 0;
   z-index: 10;
 }
-
-ul {
-  /* line-height: 80px;
-  height: 80px;
-  vertical-align:middle;
-  padding-top: 3px; */
+.left, .left a {
+  color: #32495B;
+}
+.fa-globe-europe {
+  padding-right: 7px;
+}
+.fa-angle-down {
+  padding: 0 15px 0 5px;
+  border-right: 2px solid #32495B;
+  margin-right: 10px
 }
 
+/* second menu */
 .right {
-  
+  /* text-align: right; come funzionava?*/
+  float: right;
+}
+.fa-search {
+  color: #02A4BD;
+}
+nav [class$="-button"] {
+  border: 1px solid #FC927A;
+  border-radius: 10px;
+  line-height: normal;
+  padding: 6px;
+  margin-left: 15px;
+}
+.bord-button {
+  color: #FC927A;
+  background-color: white;
+}
+.color-button {
+  color: white;
+  background-color: #FC927A;
 }
 
-/* #FC927A */
-
-
-
-
-
-
-
+/* <!-- SECONDA NAV-BAR --> */
 .menu-two {
   height: 80px;
   width: 100%;
@@ -64,7 +84,7 @@ ul {
   background-color: red;
 }
 
-
+/* <!-- JUMBO --> */
 .jumbo {
   background-color: #FFF1EE;
   height: 70vh;
