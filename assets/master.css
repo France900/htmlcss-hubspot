@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: xxxxxxxxx; */
   font-size: 1em;
 }
 
@@ -30,7 +30,6 @@ nav ul,nav li, nav a {
 }
 
 /* <!-- PRIMA NAV-BAR --> */
-/* first menu */
 .menu-one {
   height: 80px;
   width: 100%;
@@ -40,21 +39,23 @@ nav ul,nav li, nav a {
   left: 0;
   z-index: 10;
 }
+
+/* left menu */
 .left, .left a {
   color: #32495B;
 }
 .fa-globe-europe {
   padding-right: 7px;
 }
-.fa-angle-down {
+.menu-one .fa-angle-down {
   padding: 0 15px 0 5px;
   border-right: 2px solid #32495B;
   margin-right: 10px
 }
 
-/* second menu */
+/* right menu */
 .right {
-  /* text-align: right; come funzionava?*/
+  /* text-align: right; come funzionava?----------------------------------*/
   float: right;
 }
 .fa-search {
@@ -81,8 +82,30 @@ nav [class$="-button"] {
   height: 80px;
   width: 100%;
   margin-top: 80px;
-  background-color: red;
+  background-color: white;
 }
+
+.logo {
+  /* height: 80px; */
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+.box ul {
+  float: right;
+}
+
+.box ul li a {
+  color: #32495B;
+}
+
+
+
+
+
+
+
 
 /* <!-- JUMBO --> */
 .jumbo {
