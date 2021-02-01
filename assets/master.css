@@ -116,7 +116,18 @@ nav .logo img {
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-color: #FEF5EE;
-  height: 70vh;
+  height: 500px;
+  position: relative;
+}
+.the-square{
+  width: 100%;
+  height: 60px;
+  background-color: #AFEBE4;
+  border-top: 2px solid #1A2C44;
+  border-bottom: 2px solid #1A2C44;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 .small-cont {
   width: 40%;
@@ -160,5 +171,5 @@ nav .logo img {
 }
 
 .wid-100 {
-  
+
 }
