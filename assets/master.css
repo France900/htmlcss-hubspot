@@ -30,6 +30,14 @@ nav ul,nav li, nav a {
   text-decoration: none;
 }
 
+.button {
+  color: white;
+  background-color: #FC927A;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+
 /* <!-- PRIMA NAV-BAR --> */
 .menu-one {
   height: 80px;
@@ -56,26 +64,21 @@ nav ul,nav li, nav a {
 
 /* right menu */
 .right {
-  /* text-align: right; come funzionava?----------------------------------*/
   float: right;
+  /* text-align: right; come funzionava?----------------------------------*/
 }
 .fa-search {
   color: #02A4BD;
 }
-nav [class$="-button"] {
+.bord, .color {
   border: 1px solid #FC927A;
-  border-radius: 10px;
-  line-height: normal;
   padding: 6px;
   margin-left: 15px;
+  line-height: normal;
 }
-.bord-button {
+.bord.button {
   color: #FC927A;
   background-color: white;
-}
-.color-button {
-  color: white;
-  background-color: #FC927A;
 }
 
 /* <!-- SECONDA NAV-BAR --> */
@@ -137,12 +140,7 @@ nav .logo img {
   padding-bottom: 30px;
   font-size: 2.5em;
 }
-.jumbo a {
-  color: white;
-  background-color: #FC927A;
-  border-radius: 10px;
-  padding: 15px;
-  text-decoration: none;
+.jumbo .button {
   line-height: 90px;
 }
 
@@ -151,25 +149,36 @@ nav .logo img {
   background-color: #F4F9FD;
 }
 
+/* <!-- the slim outsider --> */
 .wid-50 {
   text-align: center;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding-top: 30px;
 }
-.wid-50 .logo {
+.wid-50 img {
   height: 150px;
 }
-.wid-50 img {
-  height: 100%;
-}
 .wid-50 h1 {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 .wid-50 p {
   padding-bottom: 50px;
 }
 
+/* <!-- first row --> */
 .wid-100 {
-
+  width: 100;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
 }
+.wid-100 img {
+  height: 100px;
+}
+.wid-100 .button {
+  line-height: 90px;
+}
+
+
+/* <!-- second row --> */
