@@ -231,6 +231,47 @@ nav .logo img {
 
 
 /* <!-- second row --> */
-.uno-terzo {
-  width: calc(100% / 3);
+.iterzi .uno-terzo {
+  width: 30%;
   text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.iterzi img{
+  height: 100px;
+  margin-top: 25px;
+}
+
+.iterzi h2 {
+  line-height: 60px;
+}
+
+.iterzi hr {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.iterzi a, .iterzi li {
+  list-style: none;
+  text-decoration: none;
+  color: #32495B;
+}
+
+.iterzi ul {
+  text-align: left;
+  padding: 30px 0;
+}
+
+.iterzi a.button {
+  line-height: 80px;
+}
+
+.sidemargin {
+  margin: 0 5%;
+}
+
+.riquadro {
+  width: 80%;
+  margin: 0 auto;
+}
