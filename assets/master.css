@@ -160,6 +160,7 @@ nav .logo img {
 /* <!-- FIRST SECTION MAIN (1/3) --> */
 .powerfull{
   background-color: #F4F9FD;
+  padding-bottom: 60px;
 }
 
 /* <!-- the slim outsider --> */
@@ -274,4 +275,14 @@ nav .logo img {
 .riquadro {
   width: 80%;
   margin: 0 auto;
+}
+
+/* <!-- SECOND SECTION MAIN (2/3) --> */
+.learn-the-blue {
+  background-color: #00B0B1;
+  text-align: center;
+}
+
+.bord-table .column {
+  width: 25%;
 }
